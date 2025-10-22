@@ -1,4 +1,8 @@
 
+  body {
+    background-color: black;
+  }
+  
   #fondo {
     position: absolute;
     top: 10%;
@@ -9,7 +13,6 @@
     margin-top: auto;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
   }
   #enemigo {
@@ -42,9 +45,180 @@
   #soldado {
     position: absolute;
     bottom: 50px;
-    left: 20%;
+    left: 10%;
     width: 500px;
     height: auto;
     z-index: 2;
   }
 
+
+  #moneda1 {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 200px;
+    height: auto;
+    z-index: 3; 
+  }
+  #moneda2 {
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    width: 200px;
+    height: auto;
+    z-index: 3; 
+  }
+  #moneda3 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 200px;
+    height: auto;
+    z-index: 3; 
+  }
+
+.salto {
+    animation: salto 5s ease infinite;
+  }
+
+ @keyframes salto {
+    0% { 
+      transform: translateY(0); }
+    30% {
+       transform: translateY(-100px); }
+    100% {
+       transform: translateY(1px); }
+  }
+
+.finit {
+    animation: mover-soldado 2s ease infinite;
+  }
+  @keyframes mover-soldado {
+    0% { 
+      transform: translateY(0); }
+    50% {
+       transform: translateY(-40px); }
+    100% {
+       transform: translateY(0px); }
+  } 
+
+.contador {
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    font-size: 24px;
+    color: white;
+    z-index: 4;
+   text-shadow: 2px 2px 4px #fa7203;
+  }
+
+  #carreras {
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    z-index: 0;
+    width: 80%;
+    height: 80%;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    
+  }
+
+  #sol {
+    top: 100%;
+   position: absolute;
+    left: 75%;
+    z-index: 0;
+    width: 10%;
+    height: 12%;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+     animation: sol 2s ease infinite;
+  }
+  @keyframes sol {
+    0% { 
+      transform: translateY(0); }
+    50% {
+       transform: translateY(-20px); }
+    100% {
+       transform: translateY(0px); }
+  }
+
+  .competidor {
+    animation: mover-soldado 2s ease infinite;
+  }
+
+  @keyframes competidor {
+    0% { 
+      transform: translateY(0); }
+    50% {
+       transform: translateY(-40px); }
+    100% {
+       transform: translateY(0px); }
+  } 
+
+
+  #azul {
+    top: 130%;
+   position: absolute;
+    left: 15%;
+    z-index: 0;
+    width: 30%;
+    height: 30%;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #rojo {
+    top: 137%;
+   position: absolute;
+    left: 5%;
+    z-index: 0;
+    width: 30%;
+    height: 30%;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #morado {
+    top: 135%;
+   position: absolute;
+    left: 27%;
+    z-index: 0;
+    width: 30%;
+    height: 30%;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #verde {
+    top: 140%;
+   position: absolute;
+    left: 50%;
+    z-index: 0;
+    width: 30%;
+    height: 30%;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .score2 {
+    position: absolute;
+    top: 105%;
+    left: 45%;
+    font-size: 24px;
+    color: white;
+    z-index: 4;
+     font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px #ee0404;
+  }
+
+  
