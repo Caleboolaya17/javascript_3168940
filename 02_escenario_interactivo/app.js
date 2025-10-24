@@ -15,6 +15,11 @@ salto.forEach(item => {
     });
 })
 
+const azul = document.querySelectorAll('#azul');
+const morado = document.querySelectorAll('#morado');
+const rojo = document.querySelectorAll('#rojo');
+const verde = document.querySelectorAll('#verde');
+
 
 
 

@@ -19,7 +19,6 @@
     position: absolute;
     top: 50%;
     left: 60%;
-    width: 100px;
     height: auto;
     z-index: 1;
     width: 600px;
@@ -28,7 +27,6 @@
     position: absolute;
     top: 40%;
     left: 50%;
-    width: 100px;
     height: auto;
     z-index: 1;
     width: 600px;
@@ -37,7 +35,6 @@
     position: absolute;
     top: 50%;
     left: 40%;
-    width: 100px;
     height: auto;
     z-index: 1;
     width: 600px;
@@ -221,4 +218,186 @@
     text-shadow: 2px 2px 4px #ee0404;
   }
 
-  
+  #newyork {
+     position: absolute;
+    top: 190%;
+    left: 10%;
+    z-index: 0;
+    width: 80%;
+    height: 80%;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+  }
+  #spider {
+   top: 228%;
+   position: absolute;
+    left: 73%;
+    z-index: 0;
+    width: 8%;
+    height: 15%;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #duende {
+   top: 210%;
+   position: absolute;
+    left: 20%;
+    z-index: 0;
+    width: 12%;
+    height: 20%;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    animation: mover-duende 3s linear infinite;
+  }
+  @keyframes mover-duende {
+   
+    25% {
+       transform:translateX(100px) scale(1) translateX(0px); }
+   49% {
+       transform:translateX(0) scale(1.5) translateX(0); }
+   50% {
+       transform:translateX(200px) scale(1px) translateX(0); }
+  }
+
+  #taxi {
+   top: 240%;
+   position: absolute;
+    left: 59%;
+    z-index: 0;
+    width: 5%;
+    height: 10%;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #elctro {
+   top: 205%;
+   position: absolute;
+    left: 50%;
+    z-index: 0;
+    width: 10%;
+    height: 20%;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    animation: mover-electro 4s linear infinite;
+  }
+  @keyframes mover-electro {
+    0% { 
+      transform: translateX(200px) scale3d(1, 1, 1) translateY(0px); }
+    50% {
+       transform:translateX(0px) scale3d(1.5, 1.5, 1.5) translateY(0px);
+       }
+    100% {
+       transform: translateX(200px) scale3d(1, 1, 1) translateY(0px); }
+  }
+
+  #venom {
+   top: 243%;
+   position: absolute;
+    left: 20%;
+    z-index: 0;
+    width: 10%;
+    height: 20%;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #araña {
+   top: 230%;
+   position: absolute;
+    left: 35%;
+    z-index: 0;
+    width: 7%;
+    height: 17%;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #araña2 {
+   top: 200%;
+   position: absolute;
+    left: 60%;
+    z-index: 0;
+    width: 7%;
+    height: 17%;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  #araña3 {
+   top: 240%;
+   position: absolute;
+    left: 50%;
+    z-index: 0;
+    width: 7%;
+    height: 17%;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mon {
+    animation: salto 5s ease infinite;
+  }
+
+  @keyframes salto {
+      0% { 
+        transform: translateY(0); }
+      30% {
+        transform: translateY(-60px); }
+      100% {
+        transform: translateY(px); }
+    }
+
+  #cont {
+   top: 190%;
+   position: absolute;
+   left: 10%;
+   z-index: 0;
+   width: 20%;
+   height: 32%;
+   margin-top: auto;
+   justify-content: center;
+   align-items: center;
+  }
+
+  .score3 {
+    position: absolute;
+    top: 199%;
+    left: 18%;
+    font-size: 24px;
+    color: white;
+    z-index: 4;
+     font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px #ee0404;
+  }
+
+  .icono {
+    position: absolute;
+    top: 196%;
+    left: 13%;
+    width: 5%;
+    height: auto;
+    z-index: 4;
+  }
+
+  .score4 {
+    position: absolute;
+    top: 15%;
+    left: 80%;
+    font-size: 24px;
+    color: white;
+    z-index: 4;
+   text-shadow: 2px 2px 4px #fa7203;
+  }
