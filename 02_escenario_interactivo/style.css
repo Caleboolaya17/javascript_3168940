@@ -392,12 +392,46 @@
     z-index: 4;
   }
 
+  
+
   .score4 {
-    position: absolute;
-    top: 15%;
-    left: 80%;
+     position: absolute;
+    top: 199%;
+    left: 24%;
     font-size: 24px;
     color: white;
     z-index: 4;
-   text-shadow: 2px 2px 4px #fa7203;
+     font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px #ee0404;
   }
+
+  .icono2 {
+    position: absolute;
+    top: 197%;
+    left: 19%;
+    width: 4%;
+    height: auto;
+    z-index: 4;
+  }
+
+  .container-min {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+    z-index: 5;
+  }
+
+  .miniaturas {
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 10px;
+  }
+  .miniaturas:hover {
+    border: 2px solid #fa7203;
+  }
+
+  
