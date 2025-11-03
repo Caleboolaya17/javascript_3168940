@@ -8,64 +8,80 @@
 </head>
 <body>
     <div class="container">
-    <div class="escenario" name="escenario1">
-    <span class="contador">Puntuación: 0</span>
-    <img src="soldado.webp" alt="" id="soldado" class="finit">
 
+        <!-- Esenario 1 =========================== -->
+    <div class="escena-activa" name="escenario1" id="escenario1">
+    <span class="contador" id="contador">Puntuación: 0</span>
+
+    <img src="soldado.webp" alt="" id="soldado" class="finit">
     <img src="fondo.png" alt="" id="fondo">
 
-    <img src="enemigo.webp" alt="" id="enemigo" class="enemigo" >
+    <img src="enemigo.webp" alt="" id="enemigo" class="enemigo">
     <img src="enemigo.webp" alt="" id="enemigo2" class="enemigo">
     <img src="enemigo.webp" alt="" id="enemigo3" class="enemigo">
 
-    <img src="moneda.png" alt="" id="moneda1" class="salto">
-    <img src="moneda.png" alt="" id="moneda2" class="salto">
-    <img src="moneda.png" alt="" id="moneda3" class="salto">
-    </div>
+    <img src="moneda.png" alt="" id="moneda1" class="salto moneda">
+    <img src="moneda.png" alt="" id="moneda2" class="salto moneda">
+    <img src="moneda.png" alt="" id="moneda3" class="salto moneda">
+</div>
 
 
-    <!--<div class="escenario" name="escenario2"   >
 
-        <span class="score2">Puntuación: 0</span>
-    <img src="carreras.png" alt="" id="carreras">
+ <!-- Esenario 2 =========================== -->
+ <div class="escena" name="escenario2" id="escenario2">
+    <span class="score2" id="score2">Score: 0</span>
 
-    <img src="azul.png" alt="" id="azul" class="competidor">
-    <img src="rojo.png" alt="" id="rojo" class="competidor">
-    <img src="morado.png" alt="" id="morado" class="competidor">
-    <img src="verde.png" alt="" id="verde" class="competidor ">
+  <img src="carreras.png" alt="" id="carreras">
+
+  <img src="azul.png"   alt="Azul"   id="azul"   class="competidor">
+  <img src="rojo.png"   alt="Rojo"   id="rojo"   class="competidor">
+  <img src="morado.png" alt="Morado" id="morado" class="competidor">
+  <img src="verde.png"  alt="Verde"  id="verde"  class="competidor">
 
     <img src="sol.png" alt="" id="sol">
-    </div> ª-->
+</div>
+    
+    
+    
+     <!-- Esenario 3 =========================== -->
+  <div class="escena" name="escenario3" id="escenario3">
+  <img src="newyork.png" alt="" id="newyork">
 
-       <!--<div class="escenario" name="escenario3" >
-        <img src="newyork.png" alt="" id="newyork">
+  <img src="spider.png" alt="" id="spider">
 
-        <img src="spider.png" alt="" id="spider">
-        <img src="duende.png" alt="" id="duende">
-        <img src="taxi.png" alt="" id="taxi">
-        <img src="elctro.png" alt="" id="elctro">
-        <img src="venom.png" alt="  " id="venom">
+  <img src="duende.png" alt="" id="duende" class="villano">
+  <img src="elctro.png" alt="" id="elctro" class="villano">
+  <img src="venom.png" alt="" id="venom" class="villano">
 
-        <img src="araña.png" alt="" id="araña" class="mon">
-        <img src="araña.png" alt="" id="araña2" class="mon">
-        <img src="araña.png" alt="" id="araña3" class="mon">
+  <img src="araña.png" alt="" id="araña" class="mon">
+  <img src="araña.png" alt="" id="araña2" class="mon">
+  <img src="araña.png" alt="" id="araña3" class="mon">
 
-        <img src="cont.png" alt="" id="cont">
-        <span class="score3">0</span>
-        <img src="araña.png" alt="" class="icono">
-        <img src="duende.png" alt="" class="icono2">
-        <span class="score4">0</span>
-    </div> -->
+  <img src="cont.png" alt="" id="cont">
 
+  <img src="araña.png" alt="" class="icono">
+  <span class="score3" id="score3">0</span>
+
+  <img src="duende.png" alt="" class="icono2">
+  <span class="score4" id="score4">0</span>
+</div>
 
     
 </div>
 
-<div class="container-min">
-    <img class="miniaturas" name="escenario1" src="fondo.png" width="100px" >
-    <img class="miniaturas" name="escenario2" src="carreras.png" width="100px">
-    <img class="miniaturas" name="escenario3" src="newyork.png" width="100px">
+ <!-- boton para cambiar escenario =========================== -->
+<div class="controles">
+<BUtton class="boton1"><</BUtton>
+<BUtton class="boton2">></BUtton>
 </div>
+
+ <div class="galeria">
+    <div class="miniatura miniaturaUno"></div>
+    <div class="miniatura miniaturaDos"></div>
+    <div class="miniatura miniaturaTres"></div>
+  </div>
+
+
 
     <script src="app.js"></script>
 </body>
