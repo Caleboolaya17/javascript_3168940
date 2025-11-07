@@ -1,41 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-     <header>
-         <h1>Comic Base de datos</h1>
-         <nav>
-             <ul>
-                 <li><a href="#section1">inicio</a></li>
-                 <li><a href="#section2">capitulos</a></li>
-                 <li><a href="#section3">personajes</a></li>
-             </ul>
-         </nav>
-     </header>
-       <main>
+    <h1>La princecesa ronca de oro</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#section1">inicio</a></li>
+                <li><a href="#section2">capítulo 1</a></li>
+                <li><a href="#section2">capítulo 2</a></li>
+                <li><a href="#section2">capítulo 3</a></li>
+                <li><a href="#section3">personajes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
         <section class="section" id="inicio">
             <h2>Inicio</h2>
             <div id="lista-inicio">
-                
+                <ul>
+                    <li> <a href="info"></a>Información sobre el cómic</li>
+                    <p>Este comic narra la historia de Helena, una joven princesacon una voz excepcional que busca
+                        lograr su sueño de ser una gran cantante supertnado todos los ostaculos del camino</p>
+                    <li>Genero: Fantacia</li>
+                    <li>Año de lanzamiento: 2026</li>
+                    <li><a href="#capitulos"></a>Capitulos</li>
+                    <div class="autores">
+                        <li><a href="autores"></a>Autores</li>
+                        <ul>
+                            <li>Caleb Olaya</li>
+                            <img src="caleb.jpg" alt="Caleb Olaya">
+                            <li>Juan Quintero</li>
+                            <img src="juan.jpg" alt="Juan Quintero">
+                            <li>Geraldin Ramírez</li>
+                            <img src="geraldin.jpg" alt="Geraldin Ramírez">
+                        </ul>
+                    </div>
+                </ul>
             </div>
 
-    
+
 
         </section>
-        <section class="section" id="capitulos">
-            <h2>Capitulos</h2>
-        </section>
-        <section class="section" id="personajes">
+        <div id="capitulos">
+            <section class="section" id="capitulo1">
+                <h2>Capitulo 1</h2>
+                <img src="img.png" alt="imagen">
+                <div>
+                    <h3>El surgimiento de la gran voz</h3>
+                    <p>Helena descubre su voz interior y emprende un camino para llegar a la fama musical.</p>
+                </div>
+            </section>
+            <section class="section" id="capitulo2">
+                <h2>Capitulo 2</h2>
+                <img src="img.png" alt="imagen capitulo 2">
+                <div>
+                    <h3>Romance, rebeliom y traición</h3>
+                    <p>Helena enfrenta desafíos en su vida amorosa y profesional mientras lucha por mantener su
+                        autenticidad.</p>
+                </div>
+            </section>
+            <section class="section" id="capitulo3">
+                <h2>Capitulo 3</h2>
+                <img src="img.png" alt="imagen capitulo 3">
+                <div>
+                    <h3>El legado del eco dorado</h3>
+                    <p>El final de su vida se acerca y su legado musical inspira a futuras generaciones, llegando a ser
+                        una leyenda musical.</p>
+                </div>
+            </section>
+        </div>
+        <section class="section-personajes" id="personajes">
             <h2>Personajes</h2>
+            <div id="lista-personajes">
+                <ul>
+                    <li><img src="helena.jpg" alt="Helena">Helena</li>
+                    <li><img src="marco.jpg" alt="Marco">Conde Melodico</li>
+                    <li><img src="sofia.jpg" alt="Sofía">Trovador</li>
+                </ul>
+            </div>
         </section>
-       </main>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 La princesa ronca de oro. Todos los derechos reservados.</p>
+    </footer>
 
     <script src="app.js"></script>
     <script src="bd.js"></script>
 </body>
+
 </html>
