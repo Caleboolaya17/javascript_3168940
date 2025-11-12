@@ -17,31 +17,58 @@ body {
     align-items: center;
     height: 1000px;
     margin-top: 0%;
-    background-image: url(fondo2.png);
+    background-image: url(princesa.png);
+
 }
+
+
 
 .lista-inicio {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 15px;
+    margin-top: 700px;
+    gap: 30px;
+    
 }
- h2 {
+.inicio-p {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-family: Garamond, serif;
+    
+}
+
+.lista-ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    display: flex; 
+    margin: 0 15px; 
+    gap: 20px;
+}
+ .p {
+    
     margin: 0;
     font-size: 24px;
-    color: red;
+    color: rgb(255, 255, 255);
+    font-family: Garamond, serif;
+    font-size: 80px;
 }
-.fondo {
-    position: relative;
-    width: 80%;
-    height: 80%;
-    z-index: -1;
-    top: 0%;
-    left: 0%;
-    border-radius: 20px;
-}
+
 
 .info {
     margin-bottom: 20px;
+}
+
+.Ver {
+   
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: red;
 }
 
  /* estilos del header */
@@ -72,6 +99,7 @@ nav ul li a {
     padding: 10px;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 40px;
     align-content: center;
 }
@@ -87,4 +115,28 @@ nav ul li a {
 
 .ver-capitulo:hover {
     background-color: darkred;
+}
+.cap-h {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 10px;
+    color: red;
+}
+
+#lista-personajes {
+     max-width: 1700px;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    align-content: center;
+}
+.personajes {
+    font-size: 32px;
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
 }
