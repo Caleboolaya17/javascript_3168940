@@ -1,0 +1,53 @@
+let comic = {
+  "nombreComic": "La princesa ronca de oro",
+  "numeroCapitulos": 3,
+  "genero": "fantasia",
+  "sipnosis": "historia ficticia de Helenita Vragas",
+  "autores": ["Caleb Olaya", "Juan Jose Quintero", "Geraldinne Ramirez"],
+  "portadaComic": "imagen/portada.jpg",
+  "year": 2025,
+  "personajes": 
+  [      
+    {
+      "nombre": "Princesa Helena",
+      "descripcion": "Protagonista con una voz única que lucha por su lugar en el mundo musical.",
+      "imagen": "./helena.png"
+    },
+    {
+      "nombre": "Conde Melodico",
+      "descripcion": "Interés amoroso de Helena, un noble con pasión por la música.",
+      "imagen": "./conde.png"
+    },
+    {
+      "nombre": "Trovador",
+      "descripcion": "Amigo leal de Helena que la apoya en su viaje musical.",
+      "imagen": "./trovador.png"
+    }
+  ] ,  
+  "capitulos": [
+
+    {
+      "id": 1,
+      "nombre": "El surgimiento dela gran voz",
+      "personajes": ["Doncellas", "Princesa Helena", "conde melodico"],
+      "portada": "helena.png",
+      "descripcion": "Helena descubre su voz interior y emprende un camino para llegar a la fama musical.",
+    },
+    {
+      "id": 2,
+      "nombre": "Romance, rebeliom y traición",
+      "personajes": [],
+      "portada": "conde.png",
+      "descripcion": "Helena enfrenta desafíos en su vida amorosa y profesional mientras lucha por mantener su autenticidad.",
+    },
+    {
+      "id": 3,
+      "nombre": "El legado del eco dorado",
+      "personajes": [],
+      "portada": "trovador.png",
+      "descripcion": "El final de su vida se acerca y su legado musical inspira a futuras generaciones, llegando a ser una leyenda musical.",
+    }
+  ]
+
+   
+};    
