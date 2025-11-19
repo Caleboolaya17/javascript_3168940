@@ -10,12 +10,12 @@ let comic = {
   [      
     {
       "nombre": "Princesa Helena",
-      "descripcion": "Protagonista con una voz única que lucha por su lugar en el mundo musical.",
+      "descripcion": "Princesa con una voz única que lucha <br> por su lugar en el mundo musical.",
       "imagen": "./helena.png"
     },
     {
       "nombre": "Conde Melodico",
-      "descripcion": "Interés amoroso de Helena, un noble con pasión por la música.",
+      "descripcion": "Interés amoroso de Helena, un noble <br> con pasión por la música.",
       "imagen": "./conde.png"
     },
     {

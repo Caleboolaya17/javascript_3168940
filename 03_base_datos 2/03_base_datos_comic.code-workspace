@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../03_base_datos_comic"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "03_base_datos 2"
+	}
+}
