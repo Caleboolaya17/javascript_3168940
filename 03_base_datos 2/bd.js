@@ -27,25 +27,28 @@ let comic = {
   "capitulos": [
 
     {
-      "id": 1,
+      "id": "capitulo 1",
       "nombre": "El surgimiento dela gran voz",
       "personajes": ["Doncellas", "Princesa Helena", "conde melodico"],
-      "portada": "helena.png",
+      "portada": "capitulo_1.png",
       "descripcion": "Helena descubre su voz interior y emprende un camino para llegar a la fama musical.",
+      "boton": "Ver capitulo"
     },
     {
-      "id": 2,
+      "id": "capitulo 2",
       "nombre": "Romance, rebeliom y traición",
       "personajes": [],
-      "portada": "conde.png",
+      "portada": "capitulo_2.png",
       "descripcion": "Helena enfrenta desafíos en su vida amorosa y profesional mientras lucha por mantener su autenticidad.",
+      "boton": "Ver capitulo"
     },
     {
-      "id": 3,
+      "id": "capitulo 3",
       "nombre": "El legado del eco dorado",
       "personajes": [],
-      "portada": "trovador.png",
+      "portada": "capitulo_3.png",
       "descripcion": "El final de su vida se acerca y su legado musical inspira a futuras generaciones, llegando a ser una leyenda musical.",
+      "boton": "Ver capitulo"
     }
   ]
 

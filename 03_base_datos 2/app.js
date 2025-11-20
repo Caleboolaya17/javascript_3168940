@@ -13,3 +13,24 @@ comic.personajes.forEach(char => {
   `;
   personajes.appendChild(section);
 });
+
+
+const capitulos = document.querySelector('#capitulos');
+
+comic.capitulos.forEach(capitulo => {
+  const div = document.createElement("div");
+  div.classList.add("capitulo");
+  div.innerHTML = `
+     <section class="section" id="capitulo1">
+                    <h2 class="cap-h">${capitulo.id}</h2>
+                    <img src="${capitulo.portada}" alt="imagen" height="400" width="300" style="border-radius: 10px;">
+                    <div>
+                        <h3>${capitulo.nombre}</h3>
+                        <p>${capitulo.descripcion}.
+                        </p>
+                    </div>
+                    <button class="ver-capitulo">${capitulo.boton}</button>
+                </section>
+  `;
+  capitulos.appendChild(div);
+});
