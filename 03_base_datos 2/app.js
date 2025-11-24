@@ -29,7 +29,8 @@ comic.capitulos.forEach(capitulo => {
                         <p>${capitulo.descripcion}.
                         </p>
                     </div>
-                    <button class="ver-capitulo">${capitulo.boton}</button>
+
+                <a href="capitulos.html"><button class="ver-capitulo">${capitulo.boton}</button></a>
                 </section>
   `;
   capitulos.appendChild(div);
