@@ -31,7 +31,7 @@ let comic = {
       "nombre": "El surgimiento dela gran voz",
       "personajes": ["Doncellas", "Princesa Helena", "conde melodico"],
       "portada": "capitulo_1.png",
-      "descripcion": "Helena descubre su voz interior y emprende un camino para llegar a la fama musical.",
+      "descripcion": "Helena descubre su voz interior <br> y emprende un camino para llegar <br> a la fama musical.",
       "boton": "Ver capitulo"
     },
     {
@@ -39,7 +39,7 @@ let comic = {
       "nombre": "Romance, rebeliom y traición",
       "personajes": [],
       "portada": "capitulo_2.png",
-      "descripcion": "Helena enfrenta desafíos en su vida amorosa y profesional mientras lucha por mantener su autenticidad.",
+      "descripcion": "Helena enfrenta desafíos en su vida <br> amorosa y profesional mientras lucha <br> por mantener su autenticidad.",
       "boton": "Ver capitulo"
     },
     {
@@ -47,7 +47,7 @@ let comic = {
       "nombre": "El legado del eco dorado",
       "personajes": [],
       "portada": "capitulo_3.png",
-      "descripcion": "El final de su vida se acerca y su legado musical inspira a futuras generaciones, llegando a ser una leyenda musical.",
+      "descripcion": "El final de su vida se acerca y su legado <br> musical inspira a futuras generaciones, <br> llegando a ser una leyenda musical.",
       "boton": "Ver capitulo"
     }
   ]

@@ -6,7 +6,7 @@ comic.personajes.forEach(char => {
   section.classList.add("per-section");
   section.innerHTML = `
       <h2 class="per">${char.nombre}</h2>
-                        <img src="${char.imagen}" alt="${char.nombre}" width="300" height="400" style="border-radius: 100px;">
+                        <a href="personajes.html"><img src="${char.imagen}" alt="${char.nombre}" width="300" height="400" style="border-radius: 100px;"></a>
                         <div>
                             <p>${char.descripcion}</p>
                         </div>
