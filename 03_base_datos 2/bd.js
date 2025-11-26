@@ -1,4 +1,4 @@
-let comic = {
+export let comic = {
   "nombreComic": "La princesa ronca de oro",
   "numeroCapitulos": 3,
   "genero": "fantasia",
@@ -11,17 +11,20 @@ let comic = {
     {
       "nombre": "Princesa Helena",
       "descripcion": "Princesa con una voz única que lucha <br> por su lugar en el mundo musical.",
-      "imagen": "./helena.png"
+      "imagen": "./helena.png",
+      "id": 1,
     },
     {
       "nombre": "Conde Melodico",
       "descripcion": "Interés amoroso de Helena, un noble <br> con pasión por la música.",
-      "imagen": "./conde.png"
+      "imagen": "./conde.png",
+      "id": 2,
     },
     {
       "nombre": "Trovador",
       "descripcion": "Amigo leal de Helena que la apoya en su viaje musical.",
-      "imagen": "./trovador.png"
+      "imagen": "./trovador.png",
+      "id": 3,
     }
   ] ,  
   "capitulos": [
