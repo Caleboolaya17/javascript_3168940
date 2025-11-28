@@ -13,18 +13,27 @@ export let comic = {
       "descripcion": "Princesa con una voz única que lucha <br> por su lugar en el mundo musical.",
       "imagen": "./helena.png",
       "id": 1,
+      "edad": 18,
+      "ocupacion": "Princesa",
+      "habilidades": ["Canto", "Composición Musical"]
     },
     {
       "nombre": "Conde Melodico",
       "descripcion": "Interés amoroso de Helena, un noble <br> con pasión por la música.",
       "imagen": "./conde.png",
       "id": 2,
+      "edad": 28,
+      "ocupacion": "Conde",
+      "habilidades": ["Composición Musical", "Piano"]
     },
     {
       "nombre": "Trovador",
       "descripcion": "Amigo leal de Helena que la apoya en su viaje musical.",
       "imagen": "./trovador.png",
       "id": 3,
+      "edad": 40,
+      "ocupacion": "Trovador",
+      "habilidades": ["Canto", "Tocar la Lira"]
     }
   ] ,  
   "capitulos": [
