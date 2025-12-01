@@ -147,6 +147,11 @@ nav ul li a {
 
 .per {
     text-align: center;
-    
+    text-decoration: none;
 
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
 }

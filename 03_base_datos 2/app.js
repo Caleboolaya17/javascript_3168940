@@ -8,14 +8,14 @@ comic.personajes.forEach(char => {
   const section = document.createElement("section");
   section.classList.add("per-section");
   section.innerHTML = `
-  <a href="./personajes.html?id=${char.id}">
+  
       <h2 class="per">${char.nombre}</h2>
-                        <a href="personajes.html"><img src="${char.imagen}" alt="${char.nombre}" width="300" height="400" style="border-radius: 100px; "></a>
+                        <a href="./personajes.html?id=${char.id}" ><img src="${char.imagen}" alt="${char.nombre}" width="300" height="400" style="border-radius: 100px; "></a>
                         <div>
                             <p>${char.descripcion}</p>
                         </div>
 
-  </a>
+ 
   `;
   personajes.appendChild(section);
 });
@@ -27,6 +27,7 @@ comic.capitulos.forEach(capitulo => {
   const div = document.createElement("div");
   div.classList.add("capitulo");
   div.innerHTML = `
+  
      <section class="section" id="capitulo1">
                     <h2 class="cap-h">${capitulo.id}</h2>
                     <img src="${capitulo.portada}" alt="imagen" height="400" width="300" style="border-radius: 10px;">
@@ -36,8 +37,10 @@ comic.capitulos.forEach(capitulo => {
                         </p>
                     </div>
 
-                <a href="capitulos.html"><button class="ver-capitulo">${capitulo.boton}</button></a>
+                <a href="./capitulos.html?id=${capitulo.id}"><button class="ver-capitulo">${capitulo.boton}</button></a>
+                
                 </section>
+                
   `;
   capitulos.appendChild(div);
 });
