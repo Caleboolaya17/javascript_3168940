@@ -10,6 +10,10 @@ const miPersonaje = comic.personajes.find( p => p.id === id)
 //console.log("El id del personaje es:", miPersonaje)
 const containerPersonajes = document.querySelector(".padre");
 
+if (!id || !miPersonaje) {
+  window.location.href = "index.html";
+  throw new Error("ID no válido");
+}
 console.log(miPersonaje)
 
 containerPersonajes.innerHTML = `

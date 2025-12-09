@@ -7,6 +7,11 @@ const misCapitulos = comic.capitulos.find( c => c.id === id)
 
 const containerCapitulos = document.querySelector(".capitulos");
 
+if (!id || !misCapitulos) {
+  window.location.href = "index.html";
+  throw new Error("ID no válido");
+}
+
 containerCapitulos.innerHTML = `
    <section class="section" id="capitulo1">
         <h2 class="cap-h">${misCapitulos.nombre}</h2>

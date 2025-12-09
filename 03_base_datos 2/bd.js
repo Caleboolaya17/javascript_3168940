@@ -1,14 +1,40 @@
 export let comic = {
+ 
+  "carrusel": [
+    "fondo1.png",
+    "fondo2.png",
+    "fondo3.png"
+  ],
+
+
+ 
+
+
+ 
+  "inicio":
+  [
+    {
   "nombreComic": "La princesa ronca de oro",
   "numeroCapitulos": 3,
   "genero": "fantasia",
-  "sipnosis": "historia ficticia de Helenita Vragas",
+  "sipnosis": "Este comic narra la historia de Helena, una joven princesa con <br> una voz excepcionalque busca lograr su sueño de ser una gran <br>cantante supertnado todos los ostaculos del camino",
   "autores": ["Caleb Olaya", "Juan Jose Quintero", "Geraldinne Ramirez"],
   "portadaComic": "imagen/portada.jpg",
-  "year": 2025,
-  "personajes": 
+  "portada2": "fondo2.png",
+  "portada3": "fondo3.png",
+  "vercomic":"ver comic",
+  "year": "año de lanzamiento: 2025",
+     
+    }
+  ],
+
+
+
+
+  "personajes":
   [      
     {
+     
       "nombre": "Princesa Helena",
       "descripcion": "Princesa con una voz única que lucha <br> por su lugar en el mundo musical.",
       "imagen": "./helena.png",
@@ -38,34 +64,43 @@ export let comic = {
   ] ,  
   "capitulos": [
 
+
     {
       "id": 1,
-      "nombre": "El surgimiento dela gran voz",
+      "nombre": "El surgimiento <br> dela gran voz",
       "personajes": ["Doncellas", "Princesa Helena", "conde melodico"],
       "portada": "capitulo_1.png",
       "descripcion": "Helena descubre su voz interior <br> y emprende un camino para llegar <br> a la fama musical.",
       "video": "video.mp4",
-      "boton": "Ver capitulo"
+      "boton": "Ver capitulo",
+      "titulo": "El surgimiento de la gran voz"
     },
     {
       "id": 2,
-      "nombre": "Romance, rebeliom y traición",
+      "nombre": "Romance, rebeliom <br> y traición",
       "personajes": [],
       "portada": "capitulo_2.png",
       "descripcion": "En un giro inesperado, Helena se encuentra <br> atrapada en un triángulo amoroso entre el <br> Conde Melódico y un misterioso forastero. ",
       "boton": "Ver capitulo",
-      "video": "video.mp4"
+      "video": "video.mp4",
+      "titulo": "Romance, rebeliom y traición"
     },
     {
       "id": 3,
-      "nombre": "El legado del eco dorado",
+      "nombre": "El legado del <br> eco dorado",
       "personajes": [],
       "portada": "capitulo_3.png",
       "descripcion": "El final de su vida se acerca y su legado <br> musical inspira a futuras generaciones, <br> llegando a ser una leyenda musical.",
       "boton": "Ver capitulo",
-      "video": "video.mp4"
+      "video": "video.mp4",
+      "titulo": "El legado del eco dorado"
     }
   ]
 
+
    
 };    
+
+
+
+
