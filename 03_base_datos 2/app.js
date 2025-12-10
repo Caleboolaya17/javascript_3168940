@@ -40,7 +40,7 @@ comic.capitulos.forEach(capitulo => {
   div.innerHTML = `
  
      <section class="section" id="capitulo1">
-                    <h2 class="cap-h">${capitulo.id}</h2>
+                    <h2 class="cap-h">${capitulo.titulo}</h2>
                     <img src="${capitulo.portada}" alt="imagen" height="400" width="300" style="border-radius: 10px;">
                     <div>
                         <h3>${capitulo.nombre}</h3>
@@ -78,7 +78,7 @@ div.classList.add("ini");
 div.innerHTML =  `
 <h2 class="p">${ini.nombreComic}</h2>
             <p class="inicio-p">${ini.sipnosis}</p>
-            <button class="Ver">${ini.vercomic}</button>
+             <a href="./capitulos.html?id=${ini.id}"><button class="ver-capitulo">${ini.vercomic}</button></a>
             <ul class="lista-ul">
                 <li>${ini.genero}</li>
                 <li>${ini.year}</li>

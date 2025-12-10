@@ -67,30 +67,33 @@ export let comic = {
 
     {
       "id": 1,
-      "nombre": "El surgimiento dela gran voz",
+      "nombre": "El surgimiento <br> dela gran voz",
       "personajes": ["Doncellas", "Princesa Helena", "conde melodico"],
       "portada": "capitulo_1.png",
       "descripcion": "Helena descubre su voz interior <br> y emprende un camino para llegar <br> a la fama musical.",
       "video": "video.mp4",
-      "boton": "Ver capitulo"
+      "boton": "Ver capitulo",
+      "titulo": "El surgimiento de la gran voz"
     },
     {
       "id": 2,
-      "nombre": "Romance, rebeliom y traición",
+      "nombre": "Romance, rebeliom <br> y traición",
       "personajes": [],
       "portada": "capitulo_2.png",
       "descripcion": "En un giro inesperado, Helena se encuentra <br> atrapada en un triángulo amoroso entre el <br> Conde Melódico y un misterioso forastero. ",
       "boton": "Ver capitulo",
-      "video": "video.mp4"
+      "video": "video.mp4",
+      "titulo": "Romance, rebeliom y traición"
     },
     {
       "id": 3,
-      "nombre": "El legado del eco dorado",
+      "nombre": "El legado del <br> eco dorado",
       "personajes": [],
       "portada": "capitulo_3.png",
       "descripcion": "El final de su vida se acerca y su legado <br> musical inspira a futuras generaciones, <br> llegando a ser una leyenda musical.",
       "boton": "Ver capitulo",
-      "video": "video.mp4"
+      "video": "video.mp4",
+      "titulo": "El legado del eco dorado"
     }
   ]
 
