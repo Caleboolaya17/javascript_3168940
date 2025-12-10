@@ -1,0 +1,128 @@
+body {
+   
+    background-color: #0f0000;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+}
+
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+header {      
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    color: red;
+
+
+}
+
+
+/* .helenia {
+    margin-left: 20px;
+} */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+.padre {
+    display: block;
+    flex-wrap: wrap;
+   
+}
+
+
+h2 {
+    color: #e9e1e1;
+    font-size: 80px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.per-section {
+    max-width: 1500px;
+    background: rgb(34, 32, 32);
+    border: 1px solid #b3a5a5;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 30px auto;
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+
+ul {
+    padding: 0;
+    display: block;
+    gap: 30px;
+
+
+}
+    ul li {
+    padding: 5px 5px;
+    font-size: 20px;
+   
+    color: white;
+   
+}
+
+
+.per-img {
+    border-radius: 20px;
+}
+
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+
+
+.p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.per {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+
+footer {
+    background: rgb(34, 32, 32);
+    color: #ff0000;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
