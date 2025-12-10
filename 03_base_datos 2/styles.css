@@ -250,39 +250,39 @@ nav ul li a {
         padding: 20px 15px;
     }
 
-    /* BLOQUES UNO DEBAJO DEL OTRO */
+    
     .cap-per,
     #capitulos,
     #lista-personajes {
         display: flex;
-        flex-direction: column;   /* 🔥 Hace que todo se apile */
+        flex-direction: column;   
         gap: 20px;
         width: 100%;
         padding: 10px 0;
     }
 
-    /* Cada capítulo uno debajo del otro */
+    
     #capitulos section {
         width: 100%;
         text-align: center;
     }
 
-    /* Cada personaje uno debajo del otro */
+    
     #lista-personajes section {
         width: 100%;
         text-align: center;
     }
 
-    /* Imágenes responisvas */
+    
     img {
         width: 100%;
         height: auto;
-        max-width: 320px; /* Evita que se haga demasiado grande */
+        max-width: 320px; 
         margin: 0 auto;
         display: block;
     }
 
-    /* Botones */
+    
     button, .ver-capitulo, .Ver {
         width: 90%;
         margin: 10px auto;
