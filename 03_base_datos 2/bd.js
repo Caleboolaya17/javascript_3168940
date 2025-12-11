@@ -6,35 +6,25 @@ export let comic = {
     "fondo3.png"
   ],
 
-
- 
-
-
- 
   "inicio":
   [
     {
-  "nombreComic": "La princesa ronca de oro",
-  "numeroCapitulos": 3,
-  "genero": "fantasia",
-  "sipnosis": "Este comic narra la historia de Helena, una joven princesa con <br> una voz excepcionalque busca lograr su sueño de ser una gran <br>cantante supertnado todos los ostaculos del camino",
-  "autores": ["Caleb Olaya", "Juan Jose Quintero", "Geraldinne Ramirez"],
-  "portadaComic": "imagen/portada.jpg",
-  "portada2": "fondo2.png",
-  "portada3": "fondo3.png",
-  "vercomic":"ver comic",
-  "year": "año de lanzamiento: 2025",
-     
+      "nombreComic": "La Princesa Ronca de Oro",
+      "numeroCapitulos": 3,
+      "genero": "Fantasía",
+      "sipnosis": "Este cómic narra la historia de Helena, una joven princesa con <br> una voz excepcional que busca lograr su sueño de ser una gran <br> cantante superando todos los obstáculos del camino",
+      "autores": ["Caleb Olaya", "Juan José Quintero", "Geraldinne Ramírez"],
+      "portadaComic": "imagen/portada.jpg",
+      "portada2": "fondo2.png",
+      "portada3": "fondo3.png",
+      "vercomic":"Ver Cómic",
+      "year": "Año de lanzamiento: 2025"
     }
   ],
-
-
-
 
   "personajes":
   [      
     {
-     
       "nombre": "Princesa Helena",
       "descripcion": "Princesa con una voz única que lucha <br> por su lugar en el mundo musical.",
       "imagen": "./helena.png",
@@ -44,7 +34,7 @@ export let comic = {
       "habilidades": ["Canto", "Composición Musical"]
     },
     {
-      "nombre": "Conde Melodico",
+      "nombre": "Conde Melódico",
       "descripcion": "Interés amoroso de Helena, un noble <br> con pasión por la música.",
       "imagen": "./conde.png",
       "id": 2,
@@ -61,46 +51,39 @@ export let comic = {
       "ocupacion": "Trovador",
       "habilidades": ["Canto", "Tocar la Lira"]
     }
-  ] ,  
-  "capitulos": [
+  ],  
 
+  "capitulos": [
 
     {
       "id": 1,
-      "nombre": "El surgimiento <br> dela gran voz",
-      "personajes": ["Doncellas", "Princesa Helena", "conde melodico"],
+      "nombre": "El Surgimiento <br> De La Gran Voz",
+      "personajes": ["Doncellas", "Princesa Helena", "Conde Melódico"],
       "portada": "capitulo_1.png",
       "descripcion": "Helena descubre su voz interior <br> y emprende un camino para llegar <br> a la fama musical.",
       "video": "video.mp4",
-      "boton": "Ver capitulo",
-      "titulo": "El surgimiento de la gran voz"
+      "boton": "Ver Capítulo",
+      "titulo": "El Surgimiento De La Gran Voz"
     },
     {
       "id": 2,
-      "nombre": "Romance, rebeliom <br> y traición",
+      "nombre": "Romance, Rebelión <br> Y Traición",
       "personajes": [],
       "portada": "capitulo_2.png",
-      "descripcion": "En un giro inesperado, Helena se encuentra <br> atrapada en un triángulo amoroso entre el <br> Conde Melódico y un misterioso forastero. ",
-      "boton": "Ver capitulo",
+      "descripcion": "En un giro inesperado, Helena se encuentra <br> atrapada en un triángulo amoroso entre el <br> Conde Melódico y un misterioso forastero.",
+      "boton": "Ver Capítulo",
       "video": "video.mp4",
-      "titulo": "Romance, rebeliom y traición"
+      "titulo": "Romance, Rebelión Y Traición"
     },
     {
       "id": 3,
-      "nombre": "El legado del <br> eco dorado",
+      "nombre": "El Legado Del <br> Eco Dorado",
       "personajes": [],
       "portada": "capitulo_3.png",
       "descripcion": "El final de su vida se acerca y su legado <br> musical inspira a futuras generaciones, <br> llegando a ser una leyenda musical.",
-      "boton": "Ver capitulo",
+      "boton": "Ver Capítulo",
       "video": "video.mp4",
-      "titulo": "El legado del eco dorado"
+      "titulo": "El Legado Del Eco Dorado"
     }
   ]
-
-
-   
-};    
-
-
-
-
+};

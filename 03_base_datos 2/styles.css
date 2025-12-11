@@ -142,14 +142,17 @@ nav ul li a {
 }
 
 
-.section:hover {
+#capitulo:hover {
   z-index: 10;              
   transform: scale(1.1);  
  
 }
-
-
-
+    #capitulo1:hover,
+    #capitulo2:hover,
+    #capitulo3:hover {
+        z-index: 10;
+        transform: scale(1.1);
+    }
 
 .ver-capitulo {
     background-color: red;
